@@ -1,4 +1,42 @@
-h1 {
+$borde_texto: calc(0.5 * 44px);
+
+body {
+    font-family: Roboto, "Ubuntu", Arial, sans-serif;
+    font-size: 81.25%;
+}
+
+#content {
+    align-items: center;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    padding-top: 56px;
+}
+
+#logo {
+    height: 200px;
+    margin-bottom: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+#buscador {
+    height: 100%;
+    position: relative;
+    font-size: 16px;
+}
+
+#caja_de_texto {
+    background-color: var(--color-realbox-background);
+    border-radius: $borde_texto;
+    font-family: inherit;
+    font-size: inherit;
+    height: 100%;
+    outline: 0;
+    padding-inline-end: calc(var(--ntp-realbox-voice-icon-offset) + var(--ntp-realbox-icon-width) + var(--ntp-realbox-inner-icon-margin));
+    padding-inline-start: 52px;
+    position: relative;
+    width: 100%;
+    border: .5px;
 }
