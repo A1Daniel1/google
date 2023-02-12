@@ -39,4 +39,8 @@ body {
     position: relative;
     width: 100%;
     border: .5px;
+    border-radius: calc(0.5 * 44px);
+    height: 44px;
+    box-shadow: 0 1px 6px 0 gray;
+    font-size: 16px;
 }
