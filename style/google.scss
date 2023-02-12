@@ -43,4 +43,14 @@ body {
     height: 44px;
     box-shadow: 0 1px 6px 0 gray;
     font-size: 16px;
+    padding-left: 35px;
+}
+
+#icono_de_busqueda {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
 }
