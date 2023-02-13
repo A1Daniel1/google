@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,23 @@
     <title>Google</title>
     <link rel="stylesheet" href="./style/google.css">
 </head>
+
 <body>
     <div id="content">
         <div id="logo"><img src="./imagenes/google_logo.svg" alt="google"></div>
 
         <div id="buscador">
-            <input id="caja_de_texto" type="text" placeholder="Busca en google o escribe una URL">
-            <img src="./imagenes/search.svg" alt="" id="icono_de_busqueda">
-            <button id="btn_microfono"><img src="./imagenes/mic.svg" alt="Botón de micrófono"></button>
+
+            <form action="https://www.google.com/search">
+                <input id="caja_de_texto" type="text" placeholder="Busca en google o escribe una URL" name="q">
+                <img src="./imagenes/search.svg" alt="" id="icono_de_busqueda">
+                <button id="btn_microfono"><img src="./imagenes/mic.svg" alt="Botón de micrófono"></button>
+            </form>
         </div>
 
     </div>
 
     <script src="./js/index.js"></script>
 </body>
+
 </html>
